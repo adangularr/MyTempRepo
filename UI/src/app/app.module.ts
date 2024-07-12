@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { HighchartsChartModule } from 'highcharts-angular';
 import { AppComponent } from './app.component';
-import { CommonDonutChartComponent } from './common-donut-chart/common-donut-chart.component';
+import { CommonDonutChartComponent } from './components/common-donut-chart/common-donut-chart.component';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { CommonDonutChartComponent } from './common-donut-chart/common-donut-cha
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HighchartsChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
