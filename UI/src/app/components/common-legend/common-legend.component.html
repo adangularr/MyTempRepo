@@ -1,0 +1,10 @@
+<span>{{legendTitle}}</span>
+<span id="legend-container">
+    <span *ngFor="let item of legendItems" 
+        class="legend-item">
+        <span class="legend-color-indicator"
+            [style]="'background-color: '.concat(item.color)">&nbsp;
+        </span>
+        <span>{{item.text}}</span>
+    </span>
+</span>

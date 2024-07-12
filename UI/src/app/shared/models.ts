@@ -8,3 +8,8 @@ export interface SegmentValues {
     score: number;
     portion: number;
 }
+
+export interface LegendItem {
+    color: string;
+    text: string;
+}

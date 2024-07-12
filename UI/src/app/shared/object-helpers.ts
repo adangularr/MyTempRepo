@@ -1,4 +1,4 @@
-import { SegmentItemSet, SegmentValues } from "../models";
+import { SegmentItemSet, SegmentValues } from "./models";
 
 export function createCompleteSegmentItemSet(segmentValueData: SegmentValues[]): SegmentItemSet {
     return {
